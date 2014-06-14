@@ -1,4 +1,4 @@
-snipper
+Snipper
 =======
 
-Mac OS X Snippet tool
+Snippet tool for Mac OS X
