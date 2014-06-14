@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Snipper' target in the 'Snipper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

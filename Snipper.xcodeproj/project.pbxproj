@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		651E549F12B28875003DF4A4 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 651E549E12B28875003DF4A4 /* Icon.icns */; };
+		652022F112F9C04200329143 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652022F312F9C04200329143 /* Preferences.xib */; };
+		6528D8D712AFCA8B0086CBD7 /* Snippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528D8D612AFCA8B0086CBD7 /* Snippet.m */; };
+		6528D93512AFD15B0086CBD7 /* SnippetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528D93412AFD15B0086CBD7 /* SnippetButton.m */; };
+		654D634A12B142A1001F28B4 /* SnippetDragBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D634912B142A1001F28B4 /* SnippetDragBackground.m */; };
+		6577314F12BFD9DF00226C91 /* SnippetPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577314E12BFD9DF00226C91 /* SnippetPanel.m */; };
+		6593D5BB12FC06BE002E9D25 /* SnipperOSDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593D5BA12FC06BE002E9D25 /* SnipperOSDView.m */; };
+		6593D5BE12FC0ABE002E9D25 /* SnipperOSDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593D5BD12FC0ABE002E9D25 /* SnipperOSDWindow.m */; };
+		65A2F9A812B3A12B008BB3D7 /* SnipperHelp.help in Resources */ = {isa = PBXBuildFile; fileRef = 65A2F9A712B3A12B008BB3D7 /* SnipperHelp.help */; };
+		65E0641012B14C0100733263 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E0640F12B14C0100733263 /* Carbon.framework */; };
+		65FC9EB312B0F431001AE726 /* SnippetCollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC9EB212B0F430001AE726 /* SnippetCollectionViewDelegate.m */; };
+		65FC9EB612B0F7DF001AE726 /* SnippetCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC9EB512B0F7DF001AE726 /* SnippetCollectionView.m */; };
+		770B37ED0679A11B001EADE2 /* Snipper_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Snipper_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* Snipper_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* Snipper_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Snipper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snipper_Prefix.pch; sourceTree = "<group>"; };
+		651E549E12B28875003DF4A4 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = Design/icon/Icon.icns; sourceTree = "<group>"; };
+		652022F212F9C04200329143 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
+		6528D8D512AFCA8B0086CBD7 /* Snippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snippet.h; sourceTree = "<group>"; };
+		6528D8D612AFCA8B0086CBD7 /* Snippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snippet.m; sourceTree = "<group>"; };
+		6528D93312AFD15B0086CBD7 /* SnippetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnippetButton.h; sourceTree = "<group>"; };
+		6528D93412AFD15B0086CBD7 /* SnippetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnippetButton.m; sourceTree = "<group>"; };
+		654D634812B142A1001F28B4 /* SnippetDragBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnippetDragBackground.h; sourceTree = "<group>"; };
+		654D634912B142A1001F28B4 /* SnippetDragBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnippetDragBackground.m; sourceTree = "<group>"; };
+		6577313A12BFD58100226C91 /* storedata */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = storedata; path = "../../../../Library/Application Support/Snipper/storedata"; sourceTree = SOURCE_ROOT; };
+		6577313C12BFD59800226C91 /* net.cundd.Snipper.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = net.cundd.Snipper.plist; path = ../../../../Library/Preferences/net.cundd.Snipper.plist; sourceTree = SOURCE_ROOT; };
+		6577314D12BFD9DF00226C91 /* SnippetPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnippetPanel.h; sourceTree = "<group>"; };
+		6577314E12BFD9DF00226C91 /* SnippetPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnippetPanel.m; sourceTree = "<group>"; };
+		6593D5B912FC06BE002E9D25 /* SnipperOSDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnipperOSDView.h; sourceTree = "<group>"; };
+		6593D5BA12FC06BE002E9D25 /* SnipperOSDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipperOSDView.m; sourceTree = "<group>"; };
+		6593D5BC12FC0ABE002E9D25 /* SnipperOSDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnipperOSDWindow.h; sourceTree = "<group>"; };
+		6593D5BD12FC0ABE002E9D25 /* SnipperOSDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipperOSDWindow.m; sourceTree = "<group>"; };
+		65A2F9A712B3A12B008BB3D7 /* SnipperHelp.help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SnipperHelp.help; sourceTree = "<group>"; };
+		65D67B3A12FC03720098F9C7 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		65D67B3C12FC03720098F9C7 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Preferences.strings; sourceTree = "<group>"; };
+		65D67B3D12FC037C0098F9C7 /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		65D67B3E12FC037C0098F9C7 /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Preferences.strings; sourceTree = "<group>"; };
+		65D67B3F12FC038D0098F9C7 /* de-CH */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = "de-CH"; path = "de-CH.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		65D67B4012FC038D0098F9C7 /* de-CH */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = "de-CH"; path = "de-CH.lproj/Preferences.strings"; sourceTree = "<group>"; };
+		65E0640F12B14C0100733263 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		65FC9EB112B0F430001AE726 /* SnippetCollectionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnippetCollectionViewDelegate.h; sourceTree = "<group>"; };
+		65FC9EB212B0F430001AE726 /* SnippetCollectionViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnippetCollectionViewDelegate.m; sourceTree = "<group>"; };
+		65FC9EB412B0F7DF001AE726 /* SnippetCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnippetCollectionView.h; sourceTree = "<group>"; };
+		65FC9EB512B0F7DF001AE726 /* SnippetCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnippetCollectionView.m; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* Snipper_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Snipper_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* Snipper_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snipper_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* Snipper_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snipper_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Snipper-Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "Snipper-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Snipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				65E0641012B14C0100733263 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65FC9EB112B0F430001AE726 /* SnippetCollectionViewDelegate.h */,
+				65FC9EB212B0F430001AE726 /* SnippetCollectionViewDelegate.m */,
+				77C8280B06725ACE000B614F /* Snipper_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* Snipper_AppDelegate.m */,
+				6528D8D612AFCA8B0086CBD7 /* Snippet.m */,
+				6528D8D512AFCA8B0086CBD7 /* Snippet.h */,
+				6528D93612AFD15F0086CBD7 /* GUI */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				65E0640F12B14C0100733263 /* Carbon.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Snipper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Snipper */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				6587E0A612AFF59000C9B9E4 /* Others */,
+			);
+			name = Snipper;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Snipper_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65A2F9A712B3A12B008BB3D7 /* SnipperHelp.help */,
+				651E549E12B28875003DF4A4 /* Icon.icns */,
+				8D1107310486CEB800E47090 /* Snipper-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				65D67B3912FC03720098F9C7 /* MainMenu.strings */,
+				65D67B3B12FC03720098F9C7 /* Preferences.strings */,
+				652022F312F9C04200329143 /* Preferences.xib */,
+				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6528D93612AFD15F0086CBD7 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				654D634812B142A1001F28B4 /* SnippetDragBackground.h */,
+				6577314D12BFD9DF00226C91 /* SnippetPanel.h */,
+				6577314E12BFD9DF00226C91 /* SnippetPanel.m */,
+				654D634912B142A1001F28B4 /* SnippetDragBackground.m */,
+				65FC9EB412B0F7DF001AE726 /* SnippetCollectionView.h */,
+				65FC9EB512B0F7DF001AE726 /* SnippetCollectionView.m */,
+				6528D93312AFD15B0086CBD7 /* SnippetButton.h */,
+				6528D93412AFD15B0086CBD7 /* SnippetButton.m */,
+				6593D5B912FC06BE002E9D25 /* SnipperOSDView.h */,
+				6593D5BC12FC0ABE002E9D25 /* SnipperOSDWindow.h */,
+				6593D5BD12FC0ABE002E9D25 /* SnipperOSDWindow.m */,
+				6593D5BA12FC06BE002E9D25 /* SnipperOSDView.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		6587E0A612AFF59000C9B9E4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6577313C12BFD59800226C91 /* net.cundd.Snipper.plist */,
+				6577313A12BFD58100226C91 /* storedata */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* Snipper_DataModel.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Snipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Snipper" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snipper;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Snipper;
+			productReference = 8D1107320486CEB800E47090 /* Snipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Snipper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				da,
+				Dutch,
+				fi,
+				Italian,
+				ko,
+				no,
+				pl,
+				pt,
+				pt_PT,
+				ru,
+				Spanish,
+				sv,
+				zh_CN,
+				zh_TW,
+				"de-DE",
+				de,
+				"de-CH",
+				"de-LI",
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Snipper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Snipper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				651E549F12B28875003DF4A4 /* Icon.icns in Resources */,
+				65A2F9A812B3A12B008BB3D7 /* SnipperHelp.help in Resources */,
+				652022F112F9C04200329143 /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* Snipper_AppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* Snipper_DataModel.xcdatamodel in Sources */,
+				6528D8D712AFCA8B0086CBD7 /* Snippet.m in Sources */,
+				6528D93512AFD15B0086CBD7 /* SnippetButton.m in Sources */,
+				65FC9EB312B0F431001AE726 /* SnippetCollectionViewDelegate.m in Sources */,
+				65FC9EB612B0F7DF001AE726 /* SnippetCollectionView.m in Sources */,
+				654D634A12B142A1001F28B4 /* SnippetDragBackground.m in Sources */,
+				6577314F12BFD9DF00226C91 /* SnippetPanel.m in Sources */,
+				6593D5BB12FC06BE002E9D25 /* SnipperOSDView.m in Sources */,
+				6593D5BE12FC0ABE002E9D25 /* SnipperOSDWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		652022F312F9C04200329143 /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652022F212F9C04200329143 /* English */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+		65D67B3912FC03720098F9C7 /* MainMenu.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D67B3A12FC03720098F9C7 /* English */,
+				65D67B3D12FC037C0098F9C7 /* de */,
+				65D67B3F12FC038D0098F9C7 /* de-CH */,
+			);
+			name = MainMenu.strings;
+			sourceTree = "<group>";
+		};
+		65D67B3B12FC03720098F9C7 /* Preferences.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D67B3C12FC03720098F9C7 /* English */,
+				65D67B3E12FC037C0098F9C7 /* de */,
+				65D67B4012FC038D0098F9C7 /* de-CH */,
+			);
+			name = Preferences.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Snipper_Prefix.pch;
+				INFOPLIST_FILE = "Snipper-Info.plist";
+				INSTALL_PATH = /Applications;
+				PRODUCT_NAME = Snipper;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Snipper_Prefix.pch;
+				INFOPLIST_FILE = "Snipper-Info.plist";
+				INSTALL_PATH = /Applications;
+				PRODUCT_NAME = Snipper;
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "Snipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Snipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
